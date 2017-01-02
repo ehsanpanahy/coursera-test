@@ -14,18 +14,26 @@ h1{
 }
 
 section {
-	box-sizing: border-box;
+	
 	position:relative;
 	background-color: gray;
 	border:2px solid black;
 	padding:5px;
 	height: 150px;
 	overflow: auto;
-	margin-right:10px;
-	margin-bottom:10px;
+	margin-right:5px;
+	margin-bottom:5px;
 	margin-left:10px;
 	
 	
+}
+
+div{
+	border:none;
+
+}
+.container{
+	width:100%;
 }
 
 p{
@@ -92,7 +100,7 @@ p{
 
 
 	float:left;
-	width:30.33%;
+	width:33.33%;
 }
 	
 
@@ -103,12 +111,12 @@ p{
 	.col-md-2{
 		
 		float: left;
-		width:45%;
+		width:50%;
 	}
 
 	.col-md-1{
 		float: left;
-		width:95%;
+		width:100%;
 
 	}
 		
